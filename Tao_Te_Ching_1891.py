@@ -8,6 +8,7 @@ cls = lambda: os.system("cls")
 # this is a simple way to define a Anonymous Function
 # if the function were to have a value of x, it would be..
 # lambda x: x
+# "cls" is strictly use on windows
 
 cls()
 theTao = requests.get('http://www.sacred-texts.com/tao/taote.htm').text.split('<h2>')
