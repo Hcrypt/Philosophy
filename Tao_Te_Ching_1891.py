@@ -9,6 +9,8 @@ cls = lambda: os.system("cls")
 # if the function were to have a value of x, it would be..
 # lambda x: x
 # "cls" is strictly use on windows
+# Python LAMBDA Functions Explained
+# https://youtu.be/Ob9rY6PQMfI
 
 cls()
 theTao = requests.get('http://www.sacred-texts.com/tao/taote.htm').text.split('<h2>')
